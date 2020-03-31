@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1585687055000,
+    "timestamp": 1585687210000,
     "version": 19,
     "name": "DangBang",
     "icon": "default-repo-icon.png",
@@ -14,6 +14,110 @@
     "install": [],
     "uninstall": []
   },
-  "apps": [],
-  "packages": {}
+  "apps": [
+    {
+      "suggestedVersionCode": "71",
+      "license": "Unknown",
+      "name": "Dhis2",
+      "added": 1585687208000,
+      "icon": "com.dhis2.71.png",
+      "packageName": "com.dhis2",
+      "lastUpdated": 1585687210000
+    }
+  ],
+  "packages": {
+    "com.dhis2": [
+      {
+        "added": 1585687210000,
+        "apkName": "dhis2-v2.0.1-dhis-release.apk",
+        "hash": "de3f9c0a8231dd560474fe9b3b60358bb9b7811571f256a6f8d471ddf506b1a1",
+        "hashType": "sha256",
+        "minSdkVersion": "19",
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "mips",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.dhis2",
+        "sig": "848eb79aa697b995e1682061019b98b5",
+        "signer": "8de95a62f47d533d8e882a01c4020bac239033686a196f7528fc23c6453bd888",
+        "size": 31644743,
+        "targetSdkVersion": "28",
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ]
+        ],
+        "versionCode": 71,
+        "versionName": "2.0.1"
+      }
+    ]
+  }
 }
