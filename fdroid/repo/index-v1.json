@@ -1,0 +1,61 @@
+{
+  "repo": {
+    "timestamp": 1585686218000,
+    "version": 19,
+    "name": "DangBang",
+    "icon": "default-repo-icon.png",
+    "address": "https://raw.githubusercontent.com/alijcam/alkomm/master/fdroid/repo",
+    "description": "DangBang",
+    "mirrors": [
+      "https://raw.githubusercontent.com/alijcam/alkomm/master/fdroid/repo/repo"
+    ]
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "suggestedVersionCode": "1585685545",
+      "license": "Unknown",
+      "name": "DSCN0150",
+      "added": 1585685545000,
+      "packageName": "DSCN0150",
+      "lastUpdated": 1585686218000
+    },
+    {
+      "suggestedVersionCode": "1585685545",
+      "license": "Unknown",
+      "name": "DSCN0151",
+      "added": 1585685545000,
+      "packageName": "DSCN0151",
+      "lastUpdated": 1585686218000
+    }
+  ],
+  "packages": {
+    "DSCN0150": [
+      {
+        "added": 1585686218000,
+        "apkName": "DSCN0150.JPG",
+        "hash": "5e431bb4fb0301ac306a1ebab0ee138fa705a1ffc1ea40efa8bcec9c0d879715",
+        "hashType": "sha256",
+        "packageName": "DSCN0150",
+        "size": 2150317,
+        "versionCode": 1585685545,
+        "versionName": "2020-03-31"
+      }
+    ],
+    "DSCN0151": [
+      {
+        "added": 1585686218000,
+        "apkName": "DSCN0151.JPG",
+        "hash": "68c08b723b45a49ea9de0e8909be04389623468e56563e76692d44132ef52370",
+        "hashType": "sha256",
+        "packageName": "DSCN0151",
+        "size": 2147594,
+        "versionCode": 1585685545,
+        "versionName": "2020-03-31"
+      }
+    ]
+  }
+}
