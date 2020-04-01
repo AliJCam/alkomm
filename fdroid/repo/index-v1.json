@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1585731500000,
+    "timestamp": 1585732104000,
     "version": 19,
     "name": "DangBang",
     "icon": "default-repo-icon.png",
@@ -41,6 +41,15 @@
       "icon": "com.alphainventor.filemanager.238.png",
       "packageName": "com.alphainventor.filemanager",
       "lastUpdated": 1585731500000
+    },
+    {
+      "suggestedVersionCode": "604",
+      "license": "Unknown",
+      "name": "SIM Card Info",
+      "added": 1585732100000,
+      "icon": "me.harrygonzalez.simcardinfo.604.png",
+      "packageName": "me.harrygonzalez.simcardinfo",
+      "lastUpdated": 1585732104000
     }
   ],
   "packages": {
@@ -281,6 +290,44 @@
         ],
         "versionCode": 72,
         "versionName": "2.4.1"
+      }
+    ],
+    "me.harrygonzalez.simcardinfo": [
+      {
+        "added": 1585732104000,
+        "apkName": "me.harrygonzalez.simcardinfo_1540_apps.evozi.com.apk",
+        "hash": "613313fc9a796cd6f1b572fb56b839a28511e4be7a6823aba02077dfa5ea4e4d",
+        "hashType": "sha256",
+        "minSdkVersion": "14",
+        "packageName": "me.harrygonzalez.simcardinfo",
+        "sig": "fe5279937e4cee8237cda3ba7d5a6b34",
+        "signer": "59bcfc72e68d54a7baf69c984684fe2e5171d64f295f90f3f1390eaa58153978",
+        "size": 2299183,
+        "targetSdkVersion": "28",
+        "uses-permission": [
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ]
+        ],
+        "versionCode": 604,
+        "versionName": "6.0.4"
       }
     ]
   }
