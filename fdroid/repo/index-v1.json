@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1585732104000,
+    "timestamp": 1585734022000,
     "version": 19,
     "name": "DangBang",
     "icon": "default-repo-icon.png",
@@ -41,6 +41,47 @@
       "icon": "com.alphainventor.filemanager.238.png",
       "packageName": "com.alphainventor.filemanager",
       "lastUpdated": 1585731500000
+    },
+    {
+      "categories": [
+        "Games"
+      ],
+      "suggestedVersionCode": "5",
+      "license": "Unknown",
+      "name": "Learn Music Notes",
+      "added": 1585734016000,
+      "icon": "net.fercanet.LNM.5.png",
+      "packageName": "net.fercanet.LNM",
+      "lastUpdated": 1585734022000,
+      "localized": {
+        "de": {
+          "summary": "Musikalisches Blattspiel-Trainingsspiel"
+        },
+        "en": {
+          "description": "<p>A simple game to assist with music sight reading training.</p>"
+        },
+        "en-US": {
+          "summary": "Music sight reading training game"
+        },
+        "es": {
+          "summary": "Juego de entrenamiento de lectura musical a primera vista"
+        },
+        "pl": {
+          "summary": "Gra szkoleniowa z czytaniem muzyki"
+        },
+        "pt": {
+          "summary": "Jogo de treinamento musical de leitura \u00e0 primeira vista"
+        },
+        "pt-BR": {
+          "summary": "Jogo de treinamento musical de leitura \u00e0 primeira vista"
+        },
+        "pt-PT": {
+          "summary": "Jogo de treinamento musical de leitura \u00e0 primeira vista"
+        },
+        "zh-CN": {
+          "summary": "\u97f3\u4e50\u89c6\u89c9\u9605\u8bfb\u8bad\u7ec3\u6e38\u620f"
+        }
+      }
     },
     {
       "suggestedVersionCode": "604",
@@ -328,6 +369,40 @@
         ],
         "versionCode": 604,
         "versionName": "6.0.4"
+      }
+    ],
+    "net.fercanet.LNM": [
+      {
+        "added": 1585734022000,
+        "apkName": "net.fercanet.LNM_5.apk",
+        "hash": "add0e0c1268df6be8fad176da5ed3cbc6c2ceb0253c26f1ef6e115840c819154",
+        "hashType": "sha256",
+        "minSdkVersion": "3",
+        "packageName": "net.fercanet.LNM",
+        "sig": "9c998fc2247640dff97beb66bbcd92c3",
+        "signer": "162d34ab42cafc0f8b960a76896dbef6a6feb74ea30ac410b683ec40dd64fc35",
+        "size": 483487,
+        "targetSdkVersion": "3",
+        "uses-permission": [
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "1.4"
       }
     ]
   }
