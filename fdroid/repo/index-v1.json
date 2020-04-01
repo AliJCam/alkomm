@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1585687210000,
+    "timestamp": 1585731500000,
     "version": 19,
     "name": "DangBang",
     "icon": "default-repo-icon.png",
@@ -16,6 +16,15 @@
   },
   "apps": [
     {
+      "suggestedVersionCode": "72",
+      "license": "Unknown",
+      "name": "Button Savior (non root)",
+      "added": 1585731495000,
+      "icon": "com.smart.swkey.nonroot.72.png",
+      "packageName": "com.smart.swkey.nonroot",
+      "lastUpdated": 1585731499000
+    },
+    {
       "suggestedVersionCode": "71",
       "license": "Unknown",
       "name": "Dhis2",
@@ -23,9 +32,114 @@
       "icon": "com.dhis2.71.png",
       "packageName": "com.dhis2",
       "lastUpdated": 1585687210000
+    },
+    {
+      "suggestedVersionCode": "238",
+      "license": "Unknown",
+      "name": "File Manager +",
+      "added": 1585731494000,
+      "icon": "com.alphainventor.filemanager.238.png",
+      "packageName": "com.alphainventor.filemanager",
+      "lastUpdated": 1585731500000
     }
   ],
   "packages": {
+    "com.alphainventor.filemanager": [
+      {
+        "added": 1585731500000,
+        "apkName": "FileManager.apk",
+        "hash": "9f56f7a98ecf47886acfa7558a79fc799c60bfbd5e52acec707d9256823cf2ec",
+        "hashType": "sha256",
+        "minSdkVersion": "15",
+        "packageName": "com.alphainventor.filemanager",
+        "sig": "d2137b2732be3ede4d022dbee8b15f8a",
+        "signer": "95cc44ed264818e2ac6c883f61496fa4c83d32a1c8fa59cae324b25868afc8c2",
+        "size": 7489266,
+        "targetSdkVersion": "28",
+        "uses-permission": [
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.GET_ACCOUNTS",
+            26
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "com.alphainventor.filemanager.permission.C2D_MESSAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ]
+        ],
+        "versionCode": 238,
+        "versionName": "2.3.8"
+      }
+    ],
     "com.dhis2": [
       {
         "added": 1585687210000,
@@ -117,6 +231,56 @@
         ],
         "versionCode": 71,
         "versionName": "2.0.1"
+      }
+    ],
+    "com.smart.swkey.nonroot": [
+      {
+        "added": 1585731499000,
+        "apkName": "Button_Savior.apk",
+        "hash": "2ad92e0c43ceb94cd6689aab3912083be75791aacedd63c98674f2d8412d2a3a",
+        "hashType": "sha256",
+        "minSdkVersion": "16",
+        "packageName": "com.smart.swkey.nonroot",
+        "sig": "3bcececc2aa67a1af343d14b7cb0181e",
+        "signer": "28c64897f57f9fece38c1a7bebf5f19d380bac62d6c4df81f385bf2ed682186c",
+        "size": 2597103,
+        "targetSdkVersion": "16",
+        "uses-permission": [
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.GET_TASKS",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ]
+        ],
+        "versionCode": 72,
+        "versionName": "2.4.1"
       }
     ]
   }
